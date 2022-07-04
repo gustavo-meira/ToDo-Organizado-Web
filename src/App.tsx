@@ -1,11 +1,6 @@
 import React from 'react';
+import { AppRoutes } from './routes';
 
-const App = () => {
-  return (
-    <div>
-      <h1>Oi wolfi</h1>
-    </div>
-  );
-};
+const App = () => <AppRoutes />;
 
 export { App };
